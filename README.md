@@ -18,6 +18,45 @@ Provides a **user-friendly interface** for inputting image paths and getting gen
 ### 🔹 `requirements.txt`
 Lists all the Python packages required to run the model and prediction scripts.
 
+#👥 Face Verification using EfficientNet (TASK-B)
+
+This project provides a ready-to-use face verification system built on top of EfficientNet-B0 using PyTorch. It allows users to verify whether two face images belong to the same person or perform folder-based face verification — no training required.
+
+---
+
+#📦 Files in This Project
+
+---
+
+#🔹 face_recognition_model.pth
+
+Pretrained model file (PyTorch). Contains the trained weights for face recognition and verification.
+
+---
+
+# 🔹 model_creation.py
+
+Handles the creation of the EfficientNet model architecture. This is required for loading the model and generating embeddings.
+
+---
+
+# 🔹 model_prediction.py
+
+Contains functions for extracting image embeddings, performing cosine similarity checks, and verifying faces. Works for both folder-based verification and two-image verification.
+
+---
+
+#🔹 user_input.py
+
+Provides a simple command-line interface (menu) where users can choose between folder-based verification or two-image verification.
+
+---
+
+# 🔹 requirements.txt
+
+Lists all the Python packages required to run the model and prediction scripts.
+
+
 --------------------------------------
 
 ## 🚀 Getting Started
