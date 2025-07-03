@@ -48,18 +48,23 @@ A ready-to-use face verification system that uses cosine similarity between deep
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
----------------------------------------
-2. Install required libraries:
-pip install -r requirements.txt
----------------------------------------
-3. Run gender prediction
-python userinput.py
-You’ll be prompted to enter the path of an image file. The model will process it and print something like:
+# Step 1: Initialize an empty Git repository
+!git init
 
-Predicted Gender: Male
-⚙️ Optional: Train or Fine-Tune the Model
+# Step 2: Clone the project repository
+!git clone https://github.com/TwoBit-Coders/COMSYSHACKATHON-5.git
+
+# Step 3: Navigate to the TASK-B or TASK-B directory
+%cd /content/COMSYSHACKATHON-5/TASK-B
+              OR
+%cd /content/COMSYSHACKATHON-5/TASK-A
+
+# Step 4: Install required dependencies
+!pip install -r requirements.txt
+
+# Step 5: Run the interactive face verification tool
+!python user_input.py
+
 ----------------------------------------
 modelcreation.py
 This script shows how the ResNet50 model was modified and trained. You can use it to:
