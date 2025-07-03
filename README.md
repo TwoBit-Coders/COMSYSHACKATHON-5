@@ -2,7 +2,7 @@
 A plug-and-play gender classification model that predicts whether a face is male or female using a pretrained ResNet50 architecture.
 
 📁 Files
-🔹 gender_classifier_resnet50.pth
+🔹 gender_resnet_50.pth
 Pretrained ResNet50 model weights for gender classification.
 
 🔹 modelcreation.py
