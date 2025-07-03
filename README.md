@@ -41,7 +41,7 @@ Verify if two images are of the same person
 Perform bulk verification between folders
 
 requirements.txt
-Lists all required Python libraries (e.g., torch, efficientnet_pytorch, sklearn, etc.
+Lists all required Python libraries (e.g., torch, efficientnet_pytorch, sklearn, etc.)
 
 
 --------------------------------------
