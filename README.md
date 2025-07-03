@@ -1,4 +1,4 @@
-👤 TASK-A: Gender Classification with ResNet50
+***👤 TASK-A: Gender Classification with ResNet50***
 A plug-and-play gender classification model that predicts whether a face is male or female using a pretrained ResNet50 architecture.
 
 📁 Files
@@ -14,7 +14,7 @@ Terminal-based user interface for entering image paths and displaying gender pre
 🔹 requirements.txt
 Lists all required Python libraries (e.g., torch, torchvision, PIL, etc.).
 
-👥 TASK-B: Face Verification with EfficientNet-B0
+***👥 TASK-B: Face Verification with EfficientNet-B0***
 A ready-to-use face verification system that uses cosine similarity between deep embeddings extracted from EfficientNet-B0.
 
 📁 Files
@@ -36,7 +36,7 @@ Terminal-based CLI for users to:
 • Perform bulk verification between folders
 
 🔹 requirements.txt
-Lists all required Python libraries (e.g., torch, efficientnet_pytorch, sklearn, etc.).
+Lists all required Python libraries (e.g., torch, efficientnet_pytorch, sklearn, etc.)
 
 
 --------------------------------------
