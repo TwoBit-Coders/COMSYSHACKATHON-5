@@ -80,8 +80,8 @@ TASK-A:
 
 TASK-B:
      Face Verification Menu
-    1 → Verify using Folder
-    2 → Verify two images
+    1 :- Verify using Folder
+    2 :- Verify two images
     Select an option (1/2): 2
     Enter path for first image: /content/Danny_Ainge_0001.jpg
     Enter path for second image: /content/Danny_Ainge_0001_sunny.jpg
