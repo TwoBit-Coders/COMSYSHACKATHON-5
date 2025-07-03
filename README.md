@@ -62,8 +62,10 @@ A ready-to-use face verification system that uses cosine similarity between deep
 # Step 4: Install required dependencies
 !pip install -r requirements.txt
 
-# Step 5: Run the interactive face verification tool
-!python user_input.py
+# Step 5: Run the interactive face verification tool / Run the interactive Gender classification tool
+!python user_input.py(for TASK-B face verification)
+                OR
+!python userinput.py(for TASK-A Gender classification)
 
 ----------------------------------------
 modelcreation.py
