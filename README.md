@@ -12,7 +12,7 @@ A plug-and-play gender classification model that predicts whether a face is male
     Contains logic to load the model and make predictions from face images.
     
     🔹 userinput.py
-    Terminal-based user interface for entering image paths and displaying gender predictions.
+    Terminal-based user interface for entering image paths/folder path and displaying gender predictions.
     
     🔹 requirements.txt
     Lists all required Python libraries (e.g., torch, torchvision, PIL, etc.).
