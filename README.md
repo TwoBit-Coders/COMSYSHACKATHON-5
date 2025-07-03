@@ -3,7 +3,7 @@ A plug-and-play gender classification model that predicts whether a face is male
 
     📁 Files
     🔹 gender_resnet_50.pth
-    Pretrained ResNet50 model weights for gender classification.
+    Pretrained ResNet50 model weights  fine-tuned  for gender classification.
     
     🔹 modelcreation.py
     Builds and returns the ResNet50 model with the correct structure for embedding extraction.
