@@ -96,8 +96,8 @@ TASK-B:
 
 
 ----------------------------------------
-modelcreation.py
-This script shows how the ResNet50 model was modified and trained. You can use it to:
+modelcreation.py/model_creation.py
+This script shows how the ResNet50/EfficientNet-B0 model was modified and trained. You can use it to:
 
 Retrain the model with a new dataset
 
@@ -111,7 +111,7 @@ Developers working on face-based applications
 
 AI/ML students or researchers
 
-Anyone looking for a plug-and-play gender classification tool
+Anyone looking for a plug-and-play gender classification/face verification tool
 
 👨‍💻 Author
 Made with ❤️ by ARCHISMAN BANERJEE AND ARITRA DUTTA
