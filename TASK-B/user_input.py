@@ -2,8 +2,8 @@ from model_prediction import verify_folder, verify_two_images
 
 def main():
     print("\n Face Verification Menu")
-    print("1 → Verify using Folder")
-    print("2 → Verify two images")
+    print("1 :- Verify using Folder")
+    print("2 :- Verify two images")
     choice = input("Select an option (1/2): ").strip()
 
     if choice == "1":
