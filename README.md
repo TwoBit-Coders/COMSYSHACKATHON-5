@@ -54,7 +54,7 @@ A ready-to-use face verification system that uses cosine similarity between deep
 # Step 2: Clone the project repository
 !git clone https://github.com/TwoBit-Coders/COMSYSHACKATHON-5.git
 
-# Step 3: Navigate to the TASK-B or TASK-B directory
+# Step 3: Navigate to the TASK-B or TASK-A directory
 %cd /content/COMSYSHACKATHON-5/TASK-B
               OR
 %cd /content/COMSYSHACKATHON-5/TASK-A
@@ -66,6 +66,34 @@ A ready-to-use face verification system that uses cosine similarity between deep
 !python user_input.py(for TASK-B face verification)
                 OR
 !python userinput.py(for TASK-A Gender classification)
+
+# step 6: Sample Outputs
+TASK-A:
+    enter 1 for single image and 2 for test dataset with inner folders as male/ and female/1
+    Enter the single file path: /content/Danny_Ainge_0001.jpg
+    Enter the model path: /content/COMSYSHACKATHON-5/TASK-A/gender_resnet_50.pth
+    /usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+      warnings.warn(
+    /usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+      warnings.warn(msg)
+    (1, 0.8274878859519958, 'male')
+
+TASK-B:
+     Face Verification Menu
+    1 → Verify using Folder
+    2 → Verify two images
+    Select an option (1/2): 2
+    Enter path for first image: /content/Danny_Ainge_0001.jpg
+    Enter path for second image: /content/Danny_Ainge_0001_sunny.jpg
+    Enter path to your trained model (.pth file): /content/COMSYSHACKATHON-5/TASK-B/Face_recognition_model.pth
+    Enter similarity threshold (default 0.7): 0.7
+    Downloading: "https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b0-355c32eb.pth" to /root/.cache/torch/hub/checkpoints/efficientnet-b0-355c32eb.pth
+    100% 20.4M/20.4M [00:00<00:00, 164MB/s]
+    Loaded pretrained weights for efficientnet-b0
+    
+    Cosine Similarity: 0.8313
+    Same Person
+
 
 ----------------------------------------
 modelcreation.py
