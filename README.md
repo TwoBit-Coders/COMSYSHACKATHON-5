@@ -1,60 +1,47 @@
-# 👤 Gender Classification using ResNet50(TASK-A)
+👤 TASK-A: Gender Classification with ResNet50
+A plug-and-play gender classification model that predicts whether a face is male or female using a pretrained ResNet50 architecture.
 
-This project provides a ready-to-use **gender classification model** built on top of ResNet50 using PyTorch. It allows users to load the pretrained model and predict gender from face images with just a few lines of code — no training required.
+📁 Files
+gender_classifier_resnet50.pth
+Pretrained ResNet50 model weights for gender classification.
 
----
+modelprediction.py
+Contains logic to load the model and make predictions from face images.
 
-## 📦 Files in This Project
+userinput.py
+Terminal-based user interface for entering image paths and displaying gender predictions.
 
-### 🔹 `gender_classifier_resnet50.pth`
-Pretrained model file (PyTorch). Contains all the trained weights for gender classification.
+requirements.txt
+Lists all required Python libraries (e.g., torch, torchvision, PIL, etc.).
 
-### 🔹 `modelprediction.py`
-Handles **loading the model and making predictions** on images. You can import and use this in your own project or use it with `userinput.py`.
+👥 TASK-B: Face Verification with EfficientNet-B0
+A ready-to-use face verification system that uses cosine similarity between deep embeddings extracted from EfficientNet-B0.
 
-### 🔹 `userinput.py`
-Provides a **user-friendly interface** for inputting image paths and getting gender predictions in the terminal.
+📁 Files
+face_recognition_model.pth
+Pretrained EfficientNet-B0 model weights fine-tuned for facial recognition.
 
-### 🔹 `requirements.txt`
-Lists all the Python packages required to run the model and prediction scripts.
+model_creation.py
+Builds and returns the EfficientNet model with the correct structure for embedding extraction.
 
-#👥 Face Verification using EfficientNet (TASK-B)
+model_prediction.py
+Contains core functions to:
 
-This project provides a ready-to-use face verification system built on top of EfficientNet-B0 using PyTorch. It allows users to verify whether two face images belong to the same person or perform folder-based face verification — no training required.
+Extract face embeddings
 
----
+Compare images using cosine similarity
 
-#📦 Files in This Project
+Perform folder-based or individual image pair verification
 
----
+user_input.py
+Terminal-based CLI for users to:
 
-#🔹 face_recognition_model.pth
+Verify if two images are of the same person
 
-Pretrained model file (PyTorch). Contains the trained weights for face recognition and verification.
+Perform bulk verification between folders
 
----
-
-# 🔹 model_creation.py
-
-Handles the creation of the EfficientNet model architecture. This is required for loading the model and generating embeddings.
-
----
-
-# 🔹 model_prediction.py
-
-Contains functions for extracting image embeddings, performing cosine similarity checks, and verifying faces. Works for both folder-based verification and two-image verification.
-
----
-
-#🔹 user_input.py
-
-Provides a simple command-line interface (menu) where users can choose between folder-based verification or two-image verification.
-
----
-
-# 🔹 requirements.txt
-
-Lists all the Python packages required to run the model and prediction scripts.
+requirements.txt
+Lists all required Python libraries (e.g., torch, efficientnet_pytorch, sklearn, etc.
 
 
 --------------------------------------
