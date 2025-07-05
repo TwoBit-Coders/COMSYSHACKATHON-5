@@ -1,4 +1,4 @@
-# STEP 1: Imports and Setup
+# STEP 1: Imports
 import torch
 import torch.nn as nn
 import torch.optim as optim
