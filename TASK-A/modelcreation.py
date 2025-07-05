@@ -104,7 +104,7 @@ print(f"Recall: {recall * 100:.2f}%")
 print(f"F1-Score: {f1 * 100:.2f}%")
 
 # Saving the Model
-torch.save(model.state_dict(), "gender_classifier_resnet50.pth")
+torch.save(model.state_dict(), "gender_resnet_50.pth")
 
 
 # Saving Metrics Report
