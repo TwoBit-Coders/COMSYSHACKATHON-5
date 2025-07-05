@@ -69,7 +69,7 @@ A ready-to-use face verification system that uses cosine similarity between deep
 
 # step 6: Sample Outputs
 TASK-A:
-    enter 1 for single image and 2 for test dataset with inner folders as male/ and female/1
+    Enter 1 for single image and 2 for test dataset with inner folders as male/ and female/ 1
     Enter the single file path: /content/Danny_Ainge_0001.jpg
     Enter the model path: /content/COMSYSHACKATHON-5/TASK-A/gender_resnet_50.pth #path of the model created in modelcreation.py
     /usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
