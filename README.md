@@ -68,15 +68,26 @@ A ready-to-use face verification system that uses cosine similarity between deep
 !python userinput.py(for TASK-A Gender classification)
 
 # step 6: Sample Outputs
-TASK-A:
-    Enter 1 for single image and 2 for test dataset with inner folders as male/ and female/ 1
-    Enter the single file path: /content/Danny_Ainge_0001.jpg
-    Enter the model path: /content/COMSYSHACKATHON-5/TASK-A/gender_resnet_50.pth #path of the model created in modelcreation.py
+***TASK-A:***
+    #(FOR SINGLE FILE)
+        Enter 1 for single image and 2 for test dataset with inner folders as male/ and female/ 1
+        Enter the single file path: /content/Danny_Ainge_0001.jpg
+        Enter the model path: /content/COMSYSHACKATHON-5/TASK-A/gender_resnet_50.pth #path of the model created in modelcreation.py
+        /usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+          warnings.warn(
+        /usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+          warnings.warn(msg)
+        (1, 0.8274878859519958, 'male')
+    #(FOR ONE FOLDER(VAL HERE CAN BE REPLACED WITH TEST FOLDER))
+        Enter 1 for single image and 2 for test dataset with inner folders as male/ and female/ 2
+    Enter the test folder path: /content/Comys_Hackathon5/Task_A/val
+    Enter the model path: /content/COMSYSHACKATHON-5/TASK-A/gender_resnet_50.pth
     /usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
       warnings.warn(
     /usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
       warnings.warn(msg)
-    (1, 0.8274878859519958, 'male')
+    ([('Paul_Burrell_0006.jpg', 'male', 99.9983549118042, 'male'), ('Kwon_Young-gil_0001.jpg', 'male', 94.69863772392273, 'male'),.......,{'accuracy': 91.4691943127962, 'precision': 93.23076923076923, 'recall': 95.58359621451105, 'f1_score': 94.392523364})
+
 
 TASK-B:
      Face Verification Menu
